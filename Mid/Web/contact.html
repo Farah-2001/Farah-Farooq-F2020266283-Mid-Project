@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts</title>
+
+    <!--BootStrap-->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-xs-6">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Me, Myself and I</a>
+                <a class="nav-link" href="index.html" style="color: black;">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="personality.html" style="color: black;">Personalities</a>
+                <a class="nav-link" href="cities.html" style="color: black;">Cities</a>
+                <a class="nav-link" href="spots.html" style="color: black;">Places</a>
+                <a class="nav-link" href="contact.html" style="color: black;">Contact</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <article class="contact-form" style="padding-left: 50px; padding-top: 100px; font-family: 'Courier New', Courier, monospace;">
+          <form
+            action="http://127.0.0.1:5500/contact.html"
+            method="POST"
+            class="form-group"
+          >
+              Name:
+            <input type="text"name="Name"placeholder="Enter Your Name"class="form-control"
+              style="height: 70px;"
+            />
+            <br>
+            Email:
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              class="form-control"
+              style="height: 70px;"
+            />
+            <br>
+            Message:
+            <textarea
+              name="message"
+              rows="5"
+              class="form-control"
+              placeholder="Your Message"
+            ></textarea>
+            
+            <br>
+            <button type="submit" class="main-btn">Submit</button>
+          </form>
+        </article>
+      </div>
+
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12" style="padding-left: 10%; padding-top: 100px;">
+          <div class="contact" style="border-radius: 25px; border: 2px solid #3B668D;  width: 100%; height: 110 px; text-align: center">
+              <i class="fa fa-phone" style="font-size: 36px; color: #3B668D ; "></i>
+                  <div class="contact-status" style="text-align: center; font-size: 20px; font-family: 'Courier New', Courier, monospace; color: #3B668D;">
+                      Give Us a phone call
+                      <br>
+                      (042-12345678) 
+                 </div>
+          </div>
+                  
+          <br>
+          <div class="contact" style="border-radius: 25px; border: 2px solid #3B668D;  width: 100%; height: 150px; text-align: center;">
+              <i class="fa fa-envelope" style="font-size: 36px; color: #3B668D ; "></i>
+              <div class="contact-status" style="text-align: center; font-size: 20px; font-family: 'Courier New', Courier, monospace; color: #3B668D;">
+                  Send us an email
+                  <br>
+                  F2020266283@email
+              </div>
+              
+          </div>
+          <br>
+          <div class="contact" style="border-radius: 25px; border: 2px solid #3B668D;  width: 100%; height: 150px; text-align: center;">
+              <i class="fa fa-map-marker" style="font-size: 36px; color: #3B668D ; "></i>
+              <div class="contact-status" style="text-align: center; font-size: 20px; font-family: 'Courier New', Courier, monospace; color: #3B668D;">
+                  Mailbox us 
+                  <br>
+                  C-II Block C 2 Phase 1 Johar Town, Lahore, Punjab 54770
+              </div>
+          </div>                      
+      </div>
+    </div>
+  </div>
+         
+                  
+  <div class="container">
+              <div class="row">
+                
+                      
+                  </div>
+              </div>
+      </div>
+  </div>
+  
+  <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          
+          <!-- social icon -->
+          <a href="https://www.facebook.com/" class="social-icon">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <!-- end of social icon -->
+          
+          <!-- social icon -->
+          <a href="https://twitter.com/?lang=en" class="social-icon">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <!-- end of social icon -->
+          
+          <!-- social icon -->
+          <a href="https://www.youtube.com/" class="social-icon">
+              <i class="fa fa-youtube"></i>
+            </a>
+            <!-- end of social icon -->
+  
+          <!-- social icon -->
+          <a href="https://www.instagram.com/" class="social-icon">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <!-- end of social icon -->
+  
+        </div>
+        
+        <p class="footer-text">
+          &copy; <span class="text-primary">Me, Myself and I</span>. all rights
+          reserved
+        </p>
+  
+      </div>
+   
+    </footer>
+</body>
+</html>
